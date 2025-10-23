@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const sequelize = require('./db.js');
-const Usuario = require('./Backend/models/usuarioModels.js');
+const Usuario = require('./models/usuarioModels.js');
 require('dotenv').config();
 
 const app = express();
